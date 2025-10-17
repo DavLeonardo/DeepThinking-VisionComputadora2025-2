@@ -1,0 +1,66 @@
+# =========================
+# Entornos virtuales
+# =========================
+.venv/
+venv/
+env/
+ENV/
+*.venv
+*.env
+
+# =========================
+# Archivos compilados de Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Archivos temporales / caches
+# =========================
+*.log
+*.tmp
+*.swp
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# =========================
+# Notebooks
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# IDEs y editores
+# =========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Archivos de sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+
+# Datos pesados (común en visión por computadora)
+# =========================
+# Ignora datasets y modelos grandes (ajústalo según tu proyecto)
+# data/
+# datasets/
+# checkpoints/
+# models/
+# *.h5
+# *.pt
+# *.pth
+# *.onnx
+# *.tflite
