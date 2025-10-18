@@ -1,2 +1,1 @@
-# Vision por Computadora 2025-2
-Curso de vision por computadora
+# Trabajo #1 - Vision por computadora 2025-2
