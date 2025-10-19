@@ -5,7 +5,7 @@ Este carpeta agrupa notebooks que cubren: calibración de cámara, transformacio
 - Sistema operativo: Linux / macOS / Windows (se recomiendan Linux o WSL para reproducibilidad).
 - Python: versión 3.9 a 3.11.
 - Entorno recomendado: Jupyter Notebook / JupyterLab (o Google Colab).
-- Dependencias:requirements.txt
+- Dependencias: requirements.txt
 
 ## Instalacion del entorno
 1. Crear entorno virtual
@@ -22,4 +22,10 @@ source .venv/bin/activate    # Linux/macOS
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-
+## Instrucciones generales de ejecución
+1. Activa el entorno virtual.
+2. Verifica que las imágenes necesarias estén en las carpetas 
+  - data/Imagenes_Fachada
+  - data/Imágenes_Calibración
+  - data/Images_P5.
+3. Ejecuta el notebook o el script correspondiente a cada punto.
