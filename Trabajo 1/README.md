@@ -33,6 +33,14 @@ pip install -r requirements.txt
 ## P1 — Calibración de cámaras
 - Objetivo: Calcular matriz intrínseca, coeficientes de distorsión y error RMS del proceso de calibración.
 Ruta imágenes: ```data/Imágenes_Calibración/```
+
 - Salida:
 Matriz de cámara mtx, coeficientes dist y error RMS.
 Imágenes con esquinas detectadas (cv2.drawChessboardCorners()).
+
+## P2 — Transformaciones de intensidad por píxel
+- Objetivo: Aplicar operaciones de brillo, contraste, corrección gamma y combinaciones aritméticas entre imágenes diurna/nocturna.
+Ruta imágenes: ```data/Imagenes_Fachada/```
+- Salida:
+Imágenes ajustadas y combinadas.
+Resultados comparativos de intensidad.
