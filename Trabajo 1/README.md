@@ -44,3 +44,25 @@ Ruta imágenes: ```data/Imagenes_Fachada/```
 - Salida:
 Imágenes ajustadas y combinadas.
 Resultados comparativos de intensidad.
+
+## P3 — Rotaciones, traslaciones y GIF
+- Objetivo: Aplicar transformaciones geométricas (traslación, rotación, escala) y generar animación GIF.
+Ruta imagen: ```data/Imagenes_Fachada/Img3(SELECCIONADA).jpg```
+- Salida:
+Carpeta outputs/Frames_Gif/ con los cuadros.
+GIF generado en outputs/Gifs/.
+
+## P4 — Distribución de intensidades y ecualización
+- Objetivo: Calcular histogramas, ecualización manual y automática (cv2.equalizeHist) y comparar métricas.
+Ruta imágenes: ```data/Imagenes_Fachada/```
+- Salida:
+Gráficas de histograma.
+Imágenes ecualizadas.
+Métricas de contraste, media y entropía.
+
+## P5 — Segmentación por color (HSV)
+- Objetivo: Detectar y segmentar objetos de diferentes colores, contar objetos y calcular área total.
+Ruta imagen: ```data/Images_P5/Escena.jpg```
+- Salida:
+Máscaras por color (verde, azul, rosado, etc.).
+Conteo de objetos y área total segmentada.
