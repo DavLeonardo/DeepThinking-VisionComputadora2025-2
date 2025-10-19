@@ -15,6 +15,8 @@ python3 -m venv .venv
 3. Activar el entorno
 ```
 source .venv/bin/activate    # Linux/macOS
+```
+```
 .venv\Scripts\Activate.ps1   # Windows PowerShell
 ```
 5. Instalar dependencias
