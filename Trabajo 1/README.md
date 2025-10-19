@@ -25,7 +25,14 @@ pip install -r requirements.txt
 ## Instrucciones generales de ejecución
 1. Activa el entorno virtual.
 2. Verifica que las imágenes necesarias estén en las carpetas 
-  - data/Imagenes_Fachada
-  - data/Imágenes_Calibración
-  - data/Images_P5.
+    - data/Imagenes_Fachada
+    - data/Imágenes_Calibración
+    - data/Images_P5.
 3. Ejecuta el notebook o el script correspondiente a cada punto.
+
+## P1 — Calibración de cámaras
+- Objetivo: Calcular matriz intrínseca, coeficientes de distorsión y error RMS del proceso de calibración.
+Ruta imágenes: ```data/Imágenes_Calibración/```
+- Salida:
+Matriz de cámara mtx, coeficientes dist y error RMS.
+Imágenes con esquinas detectadas (cv2.drawChessboardCorners()).
