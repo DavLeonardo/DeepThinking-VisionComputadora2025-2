@@ -27,9 +27,9 @@ pip install -r requirements.txt
 ## Instrucciones generales de ejecución
 1. Activa el entorno virtual.
 2. Verifica que las imágenes necesarias estén en las carpetas 
-    - data/Imagenes_Fachada
-    - data/Imágenes_Calibración
-    - data/Images_P5.
+    - ./Imagenes_Fachada
+    - ./Imágenes_Calibración
+    - ./Images_P5.
 3. Ejecuta el notebook o el script correspondiente a cada punto.
 
 ## P1 — Calibración de cámaras
