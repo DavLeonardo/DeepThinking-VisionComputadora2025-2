@@ -11,4 +11,3 @@ def normalizar_homografia(H):
             # En caso de matriz degenerada, se devuelve tal cual (o se maneja el error)
             return H
     return None
-
