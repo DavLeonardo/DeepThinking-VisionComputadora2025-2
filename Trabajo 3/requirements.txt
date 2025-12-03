@@ -1,5 +1,12 @@
 kagglehub
-scikit-learn
+numpy
+matplotlib
 seaborn
+pandas
+opencv-python
+scikit-image
+scikit-learn
+scipy
+tqdm
 imutils
 tensorflow

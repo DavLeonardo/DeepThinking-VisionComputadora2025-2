@@ -187,6 +187,10 @@ Notebook: `04_parte3_clasificacion.ipynb`
    * Matriz de confusión
    * Curva ROC y AUC
 
+   ```
+
+   ```
+
    En las pruebas realizadas:
 
    * Los modelos logran accuracies entre ~93 % y ~96 % en el conjunto de  **test** .
@@ -218,3 +222,62 @@ Si se desea, se puede añadir en esta sección una tabla con las métricas numé
 # 6. Requisitos y ejecución
 
 ## 6.1 Instalación de dependencias
+
+```bash
+# Clonar el repositorio
+git clone <URL_DE_TU_REPOSITORIO>
+cd <NOMBRE_DEL_REPO>
+
+# Crear entorno virtual (opcional pero recomendado)
+python -m venv .venv
+source .venv/bin/activate      # Linux / macOS
+# .venv\Scripts\activate       # Windows
+
+# Instalar dependencias
+pip install -r requirements.txt
+```
+
+## 6.2 Descarga del dataset
+
+Tienes dos opciones:
+
+1. **Usar los notebooks tal cual en Google Colab**
+   * Subir el repositorio a tu cuenta de GitHub.
+   * Abrir cada notebook en Colab.
+   * Configurar las credenciales de Kaggle (`KAGGLE_KEY` / `KAGGLE_USERNAME`) o editar las rutas para usar una copia manual del dataset.
+2. **Descargar manualmente desde Kaggle**
+   * descargar el ZIP desde la página del dataset;
+   * descomprimir en `data/chest_xray/` o en la ruta que prefieras;
+   * ajustar las variables `base_path` / `BASE_PATH` en los notebooks para que apunten a esa ruta.
+
+### 6.3 Ejecución sugerida
+
+1. Ejecutar **Parte 1** para generar las imágenes preprocesadas y el nuevo split Train/Val/Test.
+2. Ejecutar **Parte 2A** y **Parte 2B** para entender y visualizar los descriptores.
+3. Ejecutar **Parte 3** para:
+   * construir la matriz de características completa;
+   * entrenar los modelos clásicos;
+   * entrenar y evaluar la CNN;
+   * generar las métricas y visualizaciones (matrices de confusión, curvas ROC, etc.).
+
+# 7. Créditos y referencias
+
+* **Dataset:** Paul Mooney –  *Chest X-Ray Images (Pneumonia)* , Kaggle.
+
+```yam
+
+### requirements.txt
+
+kagglehub
+numpy
+matplotlib
+seaborn
+pandas
+opencv-python
+scikit-image
+scikit-learn
+scipy
+tqdm
+imutils
+tensorflow
+```
