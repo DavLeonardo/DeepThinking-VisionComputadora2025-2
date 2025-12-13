@@ -131,24 +131,6 @@ Usando el archivo Brasil1_events.csv se generan:
 - Flujo de tráfico en el tiempo
 
 ----------------------------------------------------------------------
-ESTRUCTURA DEL REPOSITORIO
-----------------------------------------------------------------------
-
-.
-├── README.txt
-├── requirements.txt
-├── notebooks/
-│   ├── Sistema_Deteccion_y_Seguimiento.ipynb
-│   └── Parte_2.ipynb
-├── Data/
-│   └── Brasil1.mp4
-└── Results/
-    ├── detections.json
-    ├── Brasil1_yolo.mp4
-    ├── Brasil1_tracked.mp4
-    └── Brasil1_events.csv
-
-----------------------------------------------------------------------
 NOTAS
 ----------------------------------------------------------------------
 
